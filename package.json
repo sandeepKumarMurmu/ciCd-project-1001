@@ -1,0 +1,23 @@
+{
+    "name": "testapp",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "raj dhaman",
+    "license": "ISC",
+    "description": "The app allows users to create, manage, and participate in quizzes.",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.21.1",
+      "express-rate-limit": "^7.4.1",
+      "mongoose": "^8.7.1",
+      "node-cron": "^3.0.3",
+      "quiz-app": "file:"
+    }
+  }
+  
