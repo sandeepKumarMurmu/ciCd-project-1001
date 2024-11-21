@@ -19,27 +19,27 @@ app.use((req, res, next) => {
 
 // Dummy GET route
 app.get('/dummy', (req, res) => {
-    res.send('GET request to /dummy');
+   return res.send('GET request to /dummy');
 });
 
 // Dummy POST route
 app.post('/dummy', (req, res) => {
-    res.send('POST request to /dummy');
+    return res.send('POST request to /dummy');
 });
 
 // Dummy PUT route
 app.put('/dummy', (req, res) => {
-    res.send('PUT request to /dummy');
+    return res.send('PUT request to /dummy');
 });
 
 // Dummy DELETE route
 app.delete('/dummy', (req, res) => {
-    res.send('DELETE request to /dummy');
+    return res.send('DELETE request to /dummy');
 });
 
 // Dummy PATCH route
 app.patch('/dummy', (req, res) => {
-    res.send('PATCH request to /dummy');
+    return res.send('PATCH request to /dummy');
 });
 
 // Start the server
