@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 // Dummy GET route
 app.get('/dummy', (req, res) => {
-   return res.send('GET request to /dummy123456');
+   return res.send('GET request to /dummy12345');
 });
 
 // Dummy POST route
