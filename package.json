@@ -17,7 +17,8 @@
       "express-rate-limit": "^7.4.1",
       "mongoose": "^8.7.1",
       "node-cron": "^3.0.3",
-      "quiz-app": "file:"
+      "quiz-app": "file:",
+      "nodemon": "^3.0.3"
     }
   }
   
